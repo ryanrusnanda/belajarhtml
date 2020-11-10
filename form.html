@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> membuat form</title>
+</head>
+<body>
+	<!-- for dengan id harus mempunyai nama yg sama, for dan id saling berkaitan -->
+	<form>
+		<!-- form dalam bentuk text -->
+		<table border="1" cellspacing="0" cellpadding="5">
+			<tr>
+				<td align="right">
+					<label for="username">Username : </label>
+				<td>
+					<input type="text" id="username">
+				</td>
+			</tr>
+			
+			<!-- form dalam bentuk password -->
+			<tr>
+				<td align="right">
+					<label for="password">Password : </label>
+				</td>	
+				<td>
+					<input type="password" id="password">
+				</td>
+			</tr>			
+
+			<!-- form dalam bentuk radio button -->
+			<tr>
+				<td align="right" colspan="1">
+					<label for="pria">Pria</label>
+					<input type="radio" name="gender" id="pria">
+					<label for="wanita">Wanita</label>
+					<input type="radio" name="gender" id="wanita">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="checkbox" id="makan">
+					<label for="makan">Makan</label>
+					<input type="checkbox" id="minum">
+					<label for="minum">Minum</label>
+					<input type="checkbox" id="bermain">
+					<label for="bermain">Bermain</label>
+				</td>
+			<tr>
+				<td align="right">
+					<label for="textare">Text Area :</label>
+				</td>
+				<td>
+					<textarea id="textare"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="combobox">Combo Box :</label>			
+				</td>
+				<td>
+					<select id="combobox">
+						<option>Medan</option>
+						<option>Yogyakarta</option>
+						<option>Serang</option>
+						<option>Surabaya</option>
+					</select>
+				</td>		
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button type="submit">Kirim</button>
+				</td>
+			</tr>
+			
+		</table>					
+
+	</form>
+</body>
+</html>

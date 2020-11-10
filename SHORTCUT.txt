@@ -1,0 +1,32 @@
+ctrl + shift + d
+duplikat baris
+
+ctrl +d
+duplikat kata
+
+ctrl+shift+k
+delete baris
+
+ctrl+shift + atas atau bawah
+menaikkan/menurunkan baris
+
+div.container = <div class="container"></d>
+div#container = <div id="container"></d>
+
+ctrl+[/]
+indentasi baris
+
+ctrl + shift + p
+memuncul kan menu command pallete
+
+ctrl + p
+untuk menuju ke file yang ada di sidebar tanpa membuka
+ketik @ untuk search function tertentu di php
+ketik nama file + @ untuk menuju file dan function tertentu secara langsung
+:40 untuk menuju ke reow tertentu
+
+ctrl + alt + a
+untuk merapihkan coding, tetapi sebelumnya install dlu "alignment"
+
+ctrl + tab
+berpindah tab coding
